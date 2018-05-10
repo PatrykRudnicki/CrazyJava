@@ -1,9 +1,9 @@
 package ObjectOrientedProgramming.Inheritance;
 
 public class Boss extends Employee {
-    int bonus;
+    double bonus;
 
-    public Boss(String firstName, String lastName, int salary, int bonus){
+    public Boss(String firstName, String lastName, double salary, double bonus){
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
